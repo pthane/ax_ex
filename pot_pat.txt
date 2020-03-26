@@ -1,0 +1,33 @@
+"ooTextFile"
+"ExperimentMFC 5"
+stimuliAreSounds? <yes>
+"stimuli/" ".wav"
+carrier "" ""
+initial silence 0.5
+inter-stimulus interval 1.0
+33 stimuli
+    "1,1" "" "2,2" "" "3,3" "" "4,4" "" "5,5" "" "6,6" "" "7,7" "" 
+    "1,2" "" "2,3" "" "3,4" "" "4,5" "" "5,6" "" "6,7" "" 
+    "1,3" "" "2,4" "" "3,5" "" "4,6" "" "5,7" "" 
+    "7,6" "" "6,5" "" "5,4" "" "4,3" "" "3,2" "" "2,1" "" 
+    "7,5" "" "6,4" "" "5,3" "" "4,2" "" "3,1" ""
+    "1,7" "" "7,1" "" "2,7" "" "7,2" ""
+	
+number of replications 1
+break every 50
+<PermuteBalancedNoDoublets>
+"In this experiment you are going to hear a series of two words. 
+Click on the boxes on the screen to decide if the two words are the same or different. 
+Click to start."
+"Are the words the same or different?"
+"You can have a short break if you like. Click to proceed."
+"The experiment has finished."
+0 replays
+replay button 0 0 0 0 "" ""
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0
+2 response categories
+    0.1 0.3 0.4 0.6 "Same" 30 "1" "same"
+    0.7 0.9 0.4 0.6 "Different" 30 "3" "diff"
+0 goodness categories
